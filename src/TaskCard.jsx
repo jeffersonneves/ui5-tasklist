@@ -11,7 +11,7 @@ export function TaskCard(params) {
 
     return <Card
         heading={params.title}
-        style={{ maxWidth: "300px", minWidth: "280px", ...spacing.sapUiContentPadding }}
+        style={{ width: "300px", ...spacing.sapUiContentPadding }}
         avatar={<Icon name="task" />}
     >
         <Form>
